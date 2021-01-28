@@ -14,23 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SamacSys_Parts:SGP40-D-R4 IC1
-U 1 1 600DEF4D
-P 5200 3300
-F 0 "IC1" H 5800 3565 50  0000 C CNN
-F 1 "SGP40-D-R4" H 5800 3474 50  0000 C CNN
-F 2 "SamacSys_Parts:SON80P244X244X95-7N" H 6250 3400 50  0001 L CNN
-F 3 "" H 6250 3300 50  0001 L CNN
-F 4 "Air Quality Sensors Gas Sensor 2.5k pcs IC" H 6250 3200 50  0001 L CNN "Description"
-F 5 "0.95" H 6250 3100 50  0001 L CNN "Height"
-F 6 "403-SGP40-D-R4" H 6250 3000 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Sensirion/SGP40-D-R4/?qs=yqaQSyyJnNgaRqiZfsbS1Q%3D%3D" H 6250 2900 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Sensirion" H 6250 2800 50  0001 L CNN "Manufacturer_Name"
-F 9 "SGP40-D-R4" H 6250 2700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5200 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR03
 U 1 1 600DF89E
 P 4500 2950
@@ -263,4 +246,21 @@ Wire Wire Line
 Connection ~ 6900 3400
 Wire Wire Line
 	6900 3650 6900 3700
+$Comp
+L SamacSys_Parts:SGP40-D-R4 IC?
+U 1 1 601335B3
+P 5200 3300
+F 0 "IC?" H 5800 3565 50  0000 C CNN
+F 1 "SGP40-D-R4" H 5800 3474 50  0000 C CNN
+F 2 "SON80P244X244X95-7N" H 6250 3400 50  0001 L CNN
+F 3 "" H 6250 3300 50  0001 L CNN
+F 4 "Air Quality Sensors Gas Sensor 2.5k pcs IC" H 6250 3200 50  0001 L CNN "Description"
+F 5 "0.95" H 6250 3100 50  0001 L CNN "Height"
+F 6 "403-SGP40-D-R4" H 6250 3000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Sensirion/SGP40-D-R4/?qs=yqaQSyyJnNgaRqiZfsbS1Q%3D%3D" H 6250 2900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Sensirion" H 6250 2800 50  0001 L CNN "Manufacturer_Name"
+F 9 "SGP40-D-R4" H 6250 2700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5200 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
